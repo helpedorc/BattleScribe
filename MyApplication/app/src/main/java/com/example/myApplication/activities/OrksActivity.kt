@@ -91,6 +91,11 @@ class OrksActivity : AppCompatActivity() {
             }
             numPoint.text = punti.toString()
             mpMinus.start()
+
+            if(contatoreGoblin==0 && contatoreGenerale==0 && contatoreRobot==0 && contatorePuntiBase==0){
+                punti=0
+                numPoint.text=punti.toString()
+            }
         }
 
         addBase.setOnClickListener() {
@@ -120,6 +125,10 @@ class OrksActivity : AppCompatActivity() {
             }
             numPoint.text = punti.toString()
             mpMinus.start()
+            if(contatoreGoblin==0 && contatoreGenerale==0 && contatoreRobot==0 && contatorePuntiBase==0){
+                punti=0
+                numPoint.text=punti.toString()
+            }
         }
 
         addGeneral.setOnClickListener() {
@@ -149,6 +158,10 @@ class OrksActivity : AppCompatActivity() {
             }
             numPoint.text = punti.toString()
             mpMinus.start()
+            if(contatoreGoblin==0 && contatoreGenerale==0 && contatoreRobot==0 && contatorePuntiBase==0){
+                punti=0
+                numPoint.text=punti.toString()
+            }
         }
 
         addGoblin.setOnClickListener() {
@@ -178,6 +191,10 @@ class OrksActivity : AppCompatActivity() {
             }
             numPoint.text = punti.toString()
             mpMinus.start()
+            if(contatoreGoblin==0 && contatoreGenerale==0 && contatoreRobot==0 && contatorePuntiBase==0){
+                punti=0
+                numPoint.text=punti.toString()
+            }
         }
 
         saveButton.setOnClickListener() {

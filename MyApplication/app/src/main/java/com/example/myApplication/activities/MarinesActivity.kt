@@ -90,6 +90,11 @@ class MarinesActivity : AppCompatActivity() {
             }
             numPoint.text = punti.toString()
             mpMinus.start()
+
+            if(contatoreDroni==0 && contatoreGenerale==0 && contatoreRobot==0 && contatorePuntiBase==0){
+                punti=0
+                numPoint.text=punti.toString()
+            }
         }
 
         addBase.setOnClickListener() {
@@ -119,6 +124,10 @@ class MarinesActivity : AppCompatActivity() {
             }
             numPoint.text = punti.toString()
             mpMinus.start()
+            if(contatoreDroni==0 && contatoreGenerale==0 && contatoreRobot==0 && contatorePuntiBase==0){
+                punti=0
+                numPoint.text=punti.toString()
+            }
         }
 
         addGeneral.setOnClickListener() {
@@ -148,6 +157,10 @@ class MarinesActivity : AppCompatActivity() {
             }
             numPoint.text = punti.toString()
             mpMinus.start()
+            if(contatoreDroni==0 && contatoreGenerale==0 && contatoreRobot==0 && contatorePuntiBase==0){
+                punti=0
+                numPoint.text=punti.toString()
+            }
         }
 
         addCodicer.setOnClickListener() {
@@ -177,6 +190,10 @@ class MarinesActivity : AppCompatActivity() {
             }
             numPoint.text = punti.toString()
             mpMinus.start()
+            if(contatoreDroni==0 && contatoreGenerale==0 && contatoreRobot==0 && contatorePuntiBase==0){
+                punti=0
+                numPoint.text=punti.toString()
+            }
         }
 
         saveButton.setOnClickListener() {

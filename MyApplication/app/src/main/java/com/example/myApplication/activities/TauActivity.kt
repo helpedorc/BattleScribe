@@ -88,6 +88,10 @@ class TauActivity : AppCompatActivity() {
             }
             numPoint.text = punti.toString()
             mpMinus.start()
+            if(contatoreDroni==0 && contatoreGenerale==0 && contatoreRobot==0 && contatorePuntiBase==0){
+                punti=0
+                numPoint.text=punti.toString()
+            }
         }
 
         addBase.setOnClickListener() {
@@ -117,6 +121,10 @@ class TauActivity : AppCompatActivity() {
             }
             numPoint.text = punti.toString()
             mpMinus.start()
+            if(contatoreDroni==0 && contatoreGenerale==0 && contatoreRobot==0 && contatorePuntiBase==0){
+                punti=0
+                numPoint.text=punti.toString()
+            }
         }
 
         addGeneral.setOnClickListener() {
@@ -146,6 +154,10 @@ class TauActivity : AppCompatActivity() {
             }
             numPoint.text = punti.toString()
             mpMinus.start()
+            if(contatoreDroni==0 && contatoreGenerale==0 && contatoreRobot==0 && contatorePuntiBase==0){
+                punti=0
+                numPoint.text=punti.toString()
+            }
         }
 
         addDrone.setOnClickListener() {
@@ -175,6 +187,10 @@ class TauActivity : AppCompatActivity() {
             }
             numPoint.text = punti.toString()
             mpMinus.start()
+            if(contatoreDroni==0 && contatoreGenerale==0 && contatoreRobot==0 && contatorePuntiBase==0){
+                punti=0
+                numPoint.text=punti.toString()
+            }
         }
 
         saveButton.setOnClickListener() {
