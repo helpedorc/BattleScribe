@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+
+        <include layout="@layout/my_toolbar" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/OrkTitle"
+                android:textColor="?colorOnSecondary"
+                android:textSize="56sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                app:srcCompat="@drawable/pngorks" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="?colorOnSecondary" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/BaseOrk"
+            android:textColor="?colorOnSecondary"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Minus2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/orange"
+                android:text="@string/Minus1"
+                android:textColor="?colorOnSecondary" />
+
+            <Button
+                android:id="@+id/Plus2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/orange"
+                android:text="@string/Plus1"
+                android:textColor="?colorOnSecondary" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="?colorOnSecondary" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/truppa_Orks"
+            android:textColor="?colorOnSecondary"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Minus1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/orange"
+                android:text="@string/Minus1"
+                android:textColor="?colorOnSecondary" />
+
+            <Button
+                android:id="@+id/Plus1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/orange"
+                android:text="@string/Plus1"
+                android:textColor="?colorOnSecondary" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="?colorOnSecondary" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/generaleOrks"
+            android:textColor="?colorOnSecondary"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Minus3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/orange"
+                android:text="@string/Minus1"
+                android:textColor="?colorOnSecondary" />
+
+            <Button
+                android:id="@+id/Plus3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/orange"
+                android:text="@string/Plus1"
+                android:textColor="?colorOnSecondary" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="?colorOnSecondary" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/goblin"
+            android:textColor="?colorOnSecondary"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Minus4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/orange"
+                android:text="@string/Minus1"
+                android:textColor="?colorOnSecondary" />
+
+            <Button
+                android:id="@+id/Plus4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/orange"
+                android:text="@string/Plus1"
+                android:textColor="?colorOnSecondary" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="?colorOnSecondary" />
+
+        <TextView
+            android:id="@+id/Stampa1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Base"
+            android:textColor="?colorOnSecondary" />
+
+
+        <TextView
+            android:id="@+id/Punti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pBase"
+            android:textColor="?colorOnSecondary" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="?colorOnSecondary" />
+
+        <TextView
+            android:id="@+id/Stampa2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TinBoy"
+            android:textColor="?colorOnSecondary" />
+
+
+        <TextView
+            android:id="@+id/Punti1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pRobot"
+            android:textColor="?colorOnSecondary" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="?colorOnSecondary" />
+
+        <TextView
+            android:id="@+id/Stampa3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Generali"
+            android:textColor="?colorOnSecondary" />
+
+
+        <TextView
+            android:id="@+id/Punti2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pGenerali"
+            android:textColor="?colorOnSecondary" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="?colorOnSecondary" />
+
+        <TextView
+            android:id="@+id/Stampa4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/goblinsT"
+            android:textColor="?colorOnSecondary" />
+
+
+        <TextView
+            android:id="@+id/Punti3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pDroni"
+            android:textColor="?colorOnSecondary" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="?colorOnSecondary" />
+
+        <TextView
+            android:id="@+id/Stampa5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/point"
+            android:textColor="?colorOnSecondary" />
+
+        <TextView
+            android:id="@+id/Punti4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/numberP"
+            android:textColor="?colorOnSecondary" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/orange"
+            android:text="@string/Save"
+            android:textColor="?colorOnSecondary" />
+
+        <Button
+            android:id="@+id/buttonSalvataggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/orange"
+            android:text="@string/visualizza_salvataggi"
+            android:textColor="?colorOnSecondary" />
+
+    </LinearLayout>
+
+
+</ScrollView>
